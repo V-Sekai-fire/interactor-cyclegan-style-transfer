@@ -1,6 +1,6 @@
 """CycleGAN style transfer: photo -> Monet / ukiyo-e, geometry preserved.
 
-Thin HTTP shim over upstream's own generator. RFD 0036: call the upstream entry point rather
+Thin HTTP shim over upstream's own generator. RFD66606-0036: call the upstream entry point rather
 than reimplementing it -- the ResNet-9block generator and its checkpoint layout are upstream's,
 and a reimplementation would be a second definition that drifts from the first.
 
